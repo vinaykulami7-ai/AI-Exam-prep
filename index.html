@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1: AI Exam Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project 1: AI Exam Prep</h1>
+        <p>Enter a topic and generate 10 pre-written exam questions instantly.</p>
+
+        <input type="text" id="topic" placeholder="Type 'Python' or 'JavaScript'">
+        <button onclick="generateQuestions()">Generate Questions</button>
+
+        <!-- Dynamic output container -->
+        <div id="output-container">
+            <h2 id="topic-title"></h2> <!-- Dynamic topic title -->
+            <div id="output"></div>
+        </div>
+
+        <button id="copyBtn" onclick="copyQuestions()">Copy Questions</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
